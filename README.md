@@ -6,6 +6,7 @@ Simple Node.js CRM dashboard with a Kanban board for managing leads.
 - Create leads with contact info and description.
 - Drag-and-drop Kanban board with stages: not contacted, contacted, viewed property, offer given, closed, lost.
 - Data stored in `leads.json`.
+- Click on a lead card to view and edit all its details in a modal.
 
 ## Usage
 Run the server:
