@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CRM Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CRM Dashboard</h1>
+<section id="create-lead">
+  <h2>Create Lead</h2>
+  <form id="lead-form">
+    <input name="name" placeholder="Name" required>
+    <input name="email" placeholder="Email" required>
+    <input name="phone" placeholder="Phone" required>
+    <input name="street" placeholder="Street">
+    <input name="city" placeholder="City">
+    <input name="postcode" placeholder="Postcode">
+    <textarea name="description" placeholder="Description"></textarea>
+    <input name="offerPrice" placeholder="Offer Price">
+    <button type="submit">Add Lead</button>
+  </form>
+</section>
+<section id="board" class="board">
+  <div class="column" data-status="not-contacted">
+    <h3>Not Contacted</h3>
+    <div class="cards" id="not-contacted"></div>
+  </div>
+  <div class="column" data-status="contacted">
+    <h3>Contacted</h3>
+    <div class="cards" id="contacted"></div>
+  </div>
+  <div class="column" data-status="viewed">
+    <h3>Viewed Property</h3>
+    <div class="cards" id="viewed"></div>
+  </div>
+  <div class="column" data-status="offer-given">
+    <h3>Offer Given</h3>
+    <div class="cards" id="offer-given"></div>
+  </div>
+  <div class="column" data-status="closed">
+    <h3>Closed</h3>
+    <div class="cards" id="closed"></div>
+  </div>
+  <div class="column" data-status="lost">
+    <h3>Lost</h3>
+    <div class="cards" id="lost"></div>
+  </div>
+</section>
+<script src="app.js"></script>
+</body>
+</html>

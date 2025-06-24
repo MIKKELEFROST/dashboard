@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
+h1 { text-align: center; }
+.board { display: flex; gap: 10px; margin-top: 20px; }
+.column { flex: 1; background: #fff; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+.column h3 { text-align: center; }
+.cards { min-height: 100px; border: 1px dashed #ccc; padding: 5px; }
+.card { background: #e3e3e3; margin: 5px; padding: 5px; border-radius: 3px; cursor: move; }
