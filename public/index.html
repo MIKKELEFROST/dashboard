@@ -47,6 +47,24 @@
     <div class="cards" id="lost"></div>
   </div>
 </section>
+
+<!-- Lead details modal -->
+<div id="lead-modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close-modal" class="close">&times;</span>
+    <form id="lead-details-form">
+      <input name="name" placeholder="Name" required>
+      <input name="email" placeholder="Email" required>
+      <input name="phone" placeholder="Phone" required>
+      <input name="street" placeholder="Street">
+      <input name="city" placeholder="City">
+      <input name="postcode" placeholder="Postcode">
+      <textarea name="description" placeholder="Description"></textarea>
+      <input name="offerPrice" placeholder="Offer Price">
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>
